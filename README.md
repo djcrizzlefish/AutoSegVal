@@ -3,7 +3,8 @@
 When conducting PCI segmentation validation, you must run port scans against each individual CDE network from each Business network. This is a time consuming process that requires the auditor to monitor nMap scans for hours at a time. This script was built to minimize the amount of wasted time that comes with doing PCI segmentation validation.
 
 ## Installation ##
-- Clone the repository to your testing machine.
+- mkdir AutoSegVal
+- Clone the repository to /AutoSegVal.
 - Install dependencies. It is likely that python3 and xsltproc are already installed in Kali. ssmtp will need to be installed.
   - python3
   - ssmtp
