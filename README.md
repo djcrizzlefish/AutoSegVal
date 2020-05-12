@@ -1,6 +1,6 @@
 # AutoSegVal (Working but still in progress)
 ## Problem ##
-When conducting PCI segmentation validation, you must run port scans against each individual CDE network from each Business network. This is a time consuming process that requires the auditor to monitor nMap scans for hours at a time. This script was built to minimize the amount of wasted time that comes with doing PCI segmentation validation.
+When conducting PCI segmentation validation, you must run port scans against each individual CDE network from each Business network. This is a time consuming process that requires the auditor to monitor nMap scans for hours at a time. This script was built to minimize the amount of wasted time that comes with doing PCI segmentation validation. This script will run nMap scans against each individual CDE network and combine the results into a easy-to-read HTML file. This script is meant to be run once on each Business network.
 
 ## Installation ##
 - mkdir AutoSegVal
