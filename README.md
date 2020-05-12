@@ -4,7 +4,7 @@ When conducting PCI segmentation validation, you must run port scans against eac
 
 ## Installation ##
 - mkdir AutoSegVal
-- Clone the repository to /AutoSegVal.
+- Clone the repository to /AutoSegVal
 - Install dependencies. It is likely that python3 and xsltproc are already installed in Kali. ssmtp will need to be installed.
   - python3
   - ssmtp
