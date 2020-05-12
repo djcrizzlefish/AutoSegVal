@@ -21,6 +21,9 @@ AuthUser=EMAIL GOES HERE<br>
 AuthPass=PASSWORD GOES HERE<br>
 
 ## Usage ##
+
+<b>./AutoSegVal.sh exampleCSV.csv</b>
+
 The script accepts a .csv file as the only command line argument. This .csv will contain the list of CDE networks that need to be scanned. It should be formatted as such. BUSINESSVLAN,RANGE,UNIQUEID. DO NOT INCLUDE HEADERS!! A sample .csv has been included in the repo. Please use the following format.
 
 VLAN12,192.168.1.1/24,1<br>
