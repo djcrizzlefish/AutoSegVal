@@ -1,4 +1,4 @@
-# AutoSegVal
+# AutoSegVal (Working but still in progress)
 ## Problem ##
 When conducting PCI segmentation validation, you must run port scans against each individual CDE network from each Business network. This is a time consuming process that requires the auditor to monitor nMap scans for hours at a time. This script was built to minimize the amount of wasted time that comes with doing PCI segmentation validation.
 
