@@ -11,14 +11,14 @@ When conducting PCI segmentation validation, you must run port scans against eac
   - xsltproc
 
 ## Configure SSMTP ##
-One of the best things about this script is it's ability to send you an email when the all CDE networks have been scanned from the current Business network. This requires a simple configuration change to ssmtp. To get the current password for the nGuardMASS gmail account, please contact me. Add the following lines to /etc/ssmtp/ssmtp.conf
+One of the best things about this script is it's ability to send you an email when the all CDE networks have been scanned from the current Business network. This requires a simple configuration change to ssmtp. You will need to create a gmail account for this and turn on "Allow Unsecure Apps". Co-Workers, please contact me for our working credentials.
 
 UseSTARTTLS=YES<br>
 FromLineOverride=YES<br>
-root=nGuardMASS@gmail.com<br>
+root=EMAIL GOES HERE<br>
 mailhub=smtp.gmail.com:587<br>
-AuthUser=nGuardMASS@gmail.com<br>
-AuthPass=CONTACT CHRIS LAU<br>
+AuthUser=EMAIL GOES HERE<br>
+AuthPass=PASSWORD GOES HERE<br>
 
 ## Usage ##
 The script accepts a .csv file as the only command line argument. This .csv will contain the list of CDE networks that need to be scanned. It should be formatted as such. BUSINESSVLAN,RANGE,UNIQUEID. DO NOT INCLUDE HEADERS!! A sample .csv has been included in the repo. Please use the following format.
