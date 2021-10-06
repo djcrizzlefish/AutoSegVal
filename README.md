@@ -24,11 +24,7 @@ AuthPass=PASSWORD GOES HERE<br>
 
 <b>./AutoSegVal.sh exampleCSV.csv</b>
 
-The script accepts a .csv file as the only command line argument. This .csv will contain the list of CDE networks that need to be scanned. It should be formatted as such. BUSINESSVLAN,RANGE,UNIQUEID. DO NOT INCLUDE HEADERS!! A sample .csv has been included in the repo. Please use the following format.
-
-VLAN12,192.168.1.1/24,1<br>
-VLAN45,192.168.56.1/24,2<br>
-VLAN01,192.168.100.1/24,3
+The script accepts a .csv file as the only command line argument. This .csv will contain the list of CDE networks that need to be scanned. It should be formatted as such. BUSINESSVLAN,RANGE,UNIQUEID. DO NOT INCLUDE HEADERS!! A sample .csv has been included in the repo. Please use the formatting in that file.
 
 Once the script is executed, you will be asked a couple of questions that effect the nMap scans and the file structure. After that, it is a waiting game.
 
